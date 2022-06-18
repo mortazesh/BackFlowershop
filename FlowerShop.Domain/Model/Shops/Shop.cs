@@ -21,15 +21,18 @@ namespace FlowerShop.Domain.Model.Shops
         [Required(ErrorMessage = " {0} را لطفا وارد کنید")]
         [MinLength(10, ErrorMessage = "{0} نباید از {1} کارکتر کمتر باشد")]
         public string Description { get; private set; }
+        public string UrlImage { get; private set; }
         public int ProductId { get; set; }
-        public Shop(string Name, string Description, int ProductId)
+        public Shop(string Name, string Description, int ProductId, string UrlImage)
         {
             this.Name = Name;
             this.Description = Description;
             this.ProductId = ProductId;
+            this.UrlImage = UrlImage;
         }
         #region Relations
         public virtual Product Product { get; private set; }
+        public virtual Seos Seos { get; private set; }
         #endregion
     }
 }

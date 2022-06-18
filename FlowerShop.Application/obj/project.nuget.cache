@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fxMr4pM4QxDjH3JN8TlSQw+4HhxC9FYtElU2PP78sEEalMAZu5bm1kUV10DqSiqYe4FnBgr00R4ZaRUq/yAXtw==",
+  "dgSpecHash": "6IvSkufX/gA6TnPvF/2Kx7S9XFTF6FJuLVi2Kfb93rLuPilQ4oDDb8hmY/lkYzMhVocR1vywRUNnCNi2tsz6FA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hi tech\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.11\\microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",
+    "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
     "C:\\Users\\Hi tech\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.11\\microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",

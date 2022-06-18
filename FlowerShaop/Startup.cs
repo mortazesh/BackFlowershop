@@ -41,6 +41,10 @@ namespace FlowerShaop
             services.AddIdentity<User, Role>(options => options.SignIn.RequireConfirmedAccount = true)
                  .AddEntityFrameworkStores<DataBaseContext>();
             #endregion
+            #region Ioc
+            // automapper
+            services.AddAutoMapper(typeof(CatalogMappingProfile));
+            #endregion
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

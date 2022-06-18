@@ -4,14 +4,86 @@
     "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj": {
+    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj",
-        "projectName": "FlowerShop.Infrastucture",
-        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj",
+        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj",
+        "projectName": "FlowerShop.Application",
+        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj",
         "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\obj\\",
+        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
+        "projectName": "FlowerShop.Domain",
+        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +115,83 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj",
+        "projectName": "FlowerShop.Infrastucture",
+        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\FlowerShop.Infrastucture.csproj",
+        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
+                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj"
+              },
+              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

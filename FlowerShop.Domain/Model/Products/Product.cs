@@ -25,7 +25,7 @@ namespace FlowerShop.Domain.Model.Products
         [Required(ErrorMessage = " {0} را لطفا وارد کنید")]
         [MinLength(2, ErrorMessage = "{0} نباید از {1} کارکتر کمتر باشد")]
         [Phone]
-        public decimal Price { private set; get; }
+        public int Price { private set; get; }
         [Display(Name = "زمان")]
         [Required(ErrorMessage = " {0} را لطفا وارد کنید")]
         public DateTime Created { private set; get; }
@@ -37,7 +37,7 @@ namespace FlowerShop.Domain.Model.Products
         [Display(Name = "موجودیت")]
         [Required(ErrorMessage = " {0} را لطفا وارد کنید")]
         public bool Exsit { private set; get; }
-        public Product(string Name, string Description, decimal Price, int Count)
+        public Product(string Name, string Description, int Price, int Count)
         {
             this.Name = Name;
             this.Description = Description;
