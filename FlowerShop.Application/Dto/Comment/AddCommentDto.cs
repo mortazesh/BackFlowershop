@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlowerShop.Application.Dto.Shop
+namespace FlowerShop.Application.Dto.Comment
 {
-    public class AddShopDto
+    public class AddCommentDto
     {
-        public string Name { get; set; }
+        public string UserName { get; set; }
         public string Description { get; set; }
+        public string UserId { get; set; }
     }
 }

@@ -11,8 +11,8 @@ namespace FlowerShop.Domain.Model.Products
     {
         [Key]
         public int Id { get; set; }
-        public string UrlImage { get; set; }
-        public int ProductId { get; set; }
+        public string UrlImage { get; private set; }
+        public int ProductId { get; private set; }
         public Images(string UrlImage,int ProductId)
         {
             this.UrlImage = UrlImage;

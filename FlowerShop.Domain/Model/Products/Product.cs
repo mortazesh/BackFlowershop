@@ -61,10 +61,16 @@ namespace FlowerShop.Domain.Model.Products
         {
             categories.Add(new Category(Name, Id, ParentCategoryId));
         }
+        private readonly List<Comment> comments = new List<Comment>();
+        public void AddComment(string Description, string UserId, long? ParentCategoryId)
+        {
+            comments.Add(new Comment(Description, Id, UserId, ParentCategoryId));
+        }
         #region Relations
         public virtual ICollection<Property> Properties => properties;
         public virtual ICollection<Images> Images => images;
-        public virtual ICollection<Category> Categories => categories;  
+        public virtual ICollection<Category> Categories => categories;
+        public virtual ICollection<Comment> Comments => comments;
         public virtual Shop Shop { get; private set; }
         public virtual Seos Seos { get; private set; }
         #endregion

@@ -12,7 +12,7 @@ namespace FlowerShop.Application.Repository
     {
         Task Add(AddShopDto shopDto);
         Task<bool> Delete(int id);
-        Task<bool> Update(AddShopDto shopDto);
+        Task<bool> Update(int Id,AddShopDto shopDto);
         Task<IEnumerable<ShopDto>> GetAll();
         Task<ShopDto> Get(int id);
         Task<Shop> Find(int Id);

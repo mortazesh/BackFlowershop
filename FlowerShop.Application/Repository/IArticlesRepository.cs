@@ -13,7 +13,7 @@ namespace FlowerShop.Application.Repository
         Task<ArticlesDto> Get(int Id);
         Task<IEnumerable<ArticlesDto>> GetAll();
         Task Add(AddArticlesDto articlesDto);
-        Task<bool> Update(AddArticlesDto articlesDto);
+        Task<bool> Update(int Id,AddArticlesDto articlesDto);
         Task<bool> Delete(int Id);
         Task<Article> Find(int Id);
     }

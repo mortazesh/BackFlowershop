@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShaop\\FlowerShaop.csproj": {}
+    "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShaop\\FlowerShaop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShaop\\FlowerShaop.csproj": {
+    "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShaop\\FlowerShaop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShaop\\FlowerShaop.csproj",
+        "projectUniqueName": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShaop\\FlowerShaop.csproj",
         "projectName": "FlowerShaop",
-        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShaop\\FlowerShaop.csproj",
-        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShaop\\obj\\",
+        "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShaop\\FlowerShaop.csproj",
+        "packagesPath": "C:\\Users\\morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShaop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj": {
-                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj"
+              "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj": {
+                "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj"
               }
             }
           }
@@ -97,12 +97,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -111,24 +105,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
+    "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\FlowerShop.Application.csproj",
         "projectName": "FlowerShop.Application",
-        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj",
-        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\obj\\",
+        "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\FlowerShop.Application.csproj",
+        "packagesPath": "C:\\Users\\morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -143,8 +137,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
+              "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
               }
             }
           }
@@ -183,24 +177,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+    "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
         "projectName": "FlowerShop.Domain",
-        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\obj\\",
+        "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -247,24 +241,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj": {
+    "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj",
+        "projectUniqueName": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj",
         "projectName": "FlowerShop.Persentation",
-        "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj",
-        "packagesPath": "C:\\Users\\Hi tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Persentation\\obj\\",
+        "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\FlowerShop.Persentation.csproj",
+        "packagesPath": "C:\\Users\\morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Persentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,11 +273,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
-                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Application\\FlowerShop.Application.csproj"
+              "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\FlowerShop.Application.csproj": {
+                "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Application\\FlowerShop.Application.csproj"
               },
-              "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hi tech\\Desktop\\New folder (7)\\FlowerShaop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
+              "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\morteza\\Desktop\\New folder (4)\\BackFlowershop\\FlowerShop.Domain\\FlowerShop.Domain.csproj"
               }
             }
           }
@@ -326,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

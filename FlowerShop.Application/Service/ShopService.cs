@@ -77,9 +77,9 @@ namespace FlowerShop.Application.Service
             return shops;
         }
 
-        public async Task<bool> Update(AddShopDto shopDto)
+        public async Task<bool> Update(int Id,AddShopDto shopDto)
         {
-            var shop = await Find(shopDto.Id);
+            var shop = await Find(Id);
             if (shop != null)
             {
                 var shops = _mapper.Map(shopDto, shop);

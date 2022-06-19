@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlowerShop.Application.Dto.Shop
+namespace FlowerShop.Application.Dto.Property
 {
-    public class AddShopDto
+    public class PropertyDto
     {
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string Value { get; set; }
     }
 }
